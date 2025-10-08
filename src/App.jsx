@@ -10,12 +10,19 @@ const randomName = faker.person.fullName(); // Rowan Nikolaus
 const randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
 
 import "react-placeholder/lib/reactPlaceholder.css";
-import Login from './fabio-components/Login';
+import LoginMobile from './fabio-components/login-mobile';
+import SignupMobile from "./fabio-components/Signup-mobile";
+import SignupEmailMobile from "./fabio-components/SignUpForm-mobile";
+import VerifyEmailMobile from "./fabio-components/VerifyEmail-mobile";
+import ChatHomeMobile from "./fabio-components/ChatHome-mobile";
+import ChatConversationMobile from "./fabio-components/ChatConversation-mobile";
+import CodeSnippetMobile from "./fabio-components/CodeSnippet-mobile";
 
 function App() {
   const [count, setCount] = useState(0);
   const isReady = true; // Mettez à 'true' pour afficher l'image réelle
   const fakeAvatar = faker.image.avatar();
+  const exampleCode = "import React from 'react'";
   return (
     <>
       <>
@@ -95,7 +102,13 @@ function App() {
       </div> */}
       
       </>
-      <Login/>
+      {/* <LoginMobile/> */}
+      {/* <SignupMobile/> */}
+      {/* <SignupEmailMobile /> */}
+      {/* <VerifyEmailMobile /> */}
+      {/* <ChatHomeMobile /> */}
+      <ChatConversationMobile/>
+      
     </>
   );
 }

@@ -46,3 +46,15 @@
 
 /* Ajoutez cette ligne pour inclure les styles de react-placeholder */
 @source "../node_modules/react-placeholder/lib/reactPlaceholder.css";
+
+@theme {
+  --color-brand: oklch(0.75 0.2 270); /* Violet doux pour i-Oasis */
+  --font-display: "Inter", sans-serif;
+  --colors-ioasis-gray: 52 53 76;
+  --colors-ioasis-gray-darker: 37 150 190;
+  --colors-ioasis-purple: 112 48 228;
+  /* --bg-ioasis-gray-darker: 37 150 190;
+  --bg-ioasis-gray-darker: 37 150 190;
+  --bg-ioasis-gray-darker: 37 150 190; */
+  
+}

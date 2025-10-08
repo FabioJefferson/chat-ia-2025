@@ -2,7 +2,7 @@ import React from "react";
 import { BsGoogle } from "react-icons/bs"; // Vous devrez installer react-icons
 import { FaApple } from "react-icons/fa"; // Vous devrez installer react-icons
 
-const Login = () => {
+const Login = () => { // ce login est pour le design sur PC
   var myLogo = "./src/assets/ioasis-logo.png";
   myLogo = null;
 
@@ -35,7 +35,6 @@ const Login = () => {
         {/* Partie droite : l'image ou le logo */}
         <div className="w-1/2 bg-gray-900 rounded-r-lg">
           <div className="flex items-center justify-center h-full">
-            {/* Vous pouvez insérer une image ici si vous en avez une */}
             {myLogo != null ? (
               <img src={myLogo} alt="logo I-oasis" />
             ) : (

@@ -76,4 +76,8 @@ button:focus-visible {
 @theme {
   --color-brand: oklch(0.75 0.2 270); /* Violet doux pour i-Oasis */
   --font-display: "Inter", sans-serif;
+  --color-ioasis-gray: oklch(0.2461 0.0526 295.688);
+  --color-ioasis-gray-darker: oklch(0.5348 0.1197 220.672);
+  --color-ioasis-purple: oklch(0.3957 0.1557 325.33);
+  --color-ioasis-purple-darker: oklch(0.2526 0.1601 306.969);
 }

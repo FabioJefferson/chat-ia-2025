@@ -5,4 +5,11 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(),react()],
+  // css: {
+  //   postcss: {
+  //     plugins: [
+  //       require('tailwindcss')('./src/index.css') // Assurez-vous que ce chemin est correct
+  //     ]
+  //   }
+  // }
 })
